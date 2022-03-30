@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+
+* {
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(26, 24, 24);
+  padding: 15px;
+}
+h3,
+p,
+h1,
+em,
+a {
+  color: white;
+  text-decoration: none;
+}
+h1 {
+  font-size: 55px;
+}
+span {
+  font-size: 19px;
+  color: #5305ac;
+}
+p {
+  font-size: 10px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+img {
+  height: 4rem;
+  width: auto;
+}
+li {
+  margin-left: 5rem;
+}
+.navmenu {
+  display: flex;
+  align-items: right;
+  justify-content: space-between;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+.img_body {
+  display: flex;
+  align-items: flex-end;
+  height: 20rem;
+  width: auto;
+}
+.img {
+  display: flex;
+  justify-content: right;
+  margin-right: 2rem;
+}
+.body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.link {
+  background-color: #5305ac;
+  text-align: center;
+  margin: 2px;
+  padding: 2px;
+  border-radius: 10%;
+}
+.title {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 65%;
+  padding-left: 15px;
+}
+.investors {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+.footer {
+  background-color: black;
+  border-radius: 10px;
+  margin-top: 10%;
+}
