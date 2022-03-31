@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+
+* {
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  background-color: rgb(26, 24, 24);
+  padding: 15px;
+}
+h3,
+p,
+h1,
+em,
+a {
+  color: white;
+  text-decoration: none;
+}
+h1 {
+  font-size: 60px;
+}
+span {
+  font-size: 20px;
+  color: #5305ac;
+}
+p {
+  font-size: 10px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+.navmenu {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+.menu {
+  display: flex;
+  justify-content: right;
+}
+.menu li {
+  margin: 0px 2rem;
+}
+.body {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  justify-items: end;
+  align-items: center;
+}
+.img {
+  width: 50%;
+}
+.img_body {
+  width: 100%;
+}
+
+.footer {
+  background-color: black;
+  border-radius: 15px;
+  margin-top: 10%;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr 3fr;
+  grid-template-areas:
+    "tit1 tit2"
+    "link invest";
+}
+.ti1 {
+  grid-area: tit1;
+}
+.ti2 {
+  grid-area: tit2;
+}
+.link {
+  grid-area: link;
+  background-color: #5305ac;
+  text-align: center;
+  width: 10rem;
+  margin: 5px 0px;
+  border-radius: 15px;
+}
+.logo {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  grid-area: invest;
+}
+
+.invlogo {
+  height: 4rem;
+  margin: 0px 10px;
+  width: auto;
+}
