@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+}
+img {
+  width: 100%;
+  height: 400px;
+}
+.banner {
+  width: 100%;
+  height: 100%;
+}
+button {
+  border: 1px solid black;
+  border-radius: 25px;
+  width: 20%;
+  height: 10%;
+}
+header {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  height: 500px;
+}
+.body {
+  height: 800px;
+}
+.first-paragraphe {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  height: 50%;
+}
+.second-paragraphe {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  height: 50%;
+}
+.header,
+.text1,
+.text2 {
+  padding: 0% 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+form {
+  display: grid;
+  grid-template-columns: 30% 30%;
+  grid-template-rows: 60% 60%;
+  grid-template-areas:
+    "na em"
+    "ar ar";
+  justify-content: center;
+  text-align: center;
+}
+.name {
+  grid-area: na;
+}
+.mail {
+  grid-area: em;
+}
+.msg {
+  grid-area: ar;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 300px;
+}
+.button-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
