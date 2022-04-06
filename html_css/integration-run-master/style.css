@@ -78,11 +78,20 @@ form {
   padding: 4% 0;
 }
 .form {
+  position: relative;
   margin: 5% 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+}
+.form::after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: 90%;
+  background: black;
+  bottom: -14px;
 }
 .button-form {
   display: flex;
@@ -156,8 +165,10 @@ footer i {
     margin: 0% 2%;
   }
   .form {
+    position: relative;
     width: 100%;
   }
+
   .button-form {
     margin: 15% 0;
   }
