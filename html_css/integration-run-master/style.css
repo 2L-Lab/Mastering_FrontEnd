@@ -43,9 +43,11 @@ header {
   align-items: flex-start;
 }
 form {
+  width: 100%;
+  margin: 5% 0;
   display: grid;
-  grid-template-columns: 30% 30%;
-  grid-template-rows: 60% 60%;
+  grid-template-columns: 20% 20%;
+  grid-template-rows: 50% 50%;
   grid-template-areas:
     "na em"
     "ar ar";
@@ -54,22 +56,71 @@ form {
 }
 .name {
   grid-area: na;
+  padding: 0 5%;
 }
 .mail {
   grid-area: em;
+  padding: 0 5%;
 }
 .msg {
   grid-area: ar;
 }
+#name,
+#mail,
+#msg {
+  width: 100%;
+  padding: 4% 0;
+}
 .form {
+  margin: 5% 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  height: 300px;
 }
 .button-form {
   display: flex;
   justify-content: center;
+  align-items: flex-start;
+  height: 100px;
+}
+#button-form {
+  margin: 30% 0;
+  width: 100%;
+  height: 40%;
+}
+
+textarea {
+  resize: none;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-evenly;
   align-items: center;
+}
+
+footer i {
+  display: flex;
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 8px;
+  margin: 5px;
+}
+
+/* ------------------------------------------ */
+
+@media screen and (max-width: 500px) {
+  .header {
+    display: block;
+    flex-direction: column;
+  }
+  .first-paragraphe,
+  .second-paragraphe {
+    display: flex;
+    justify-content: center;
+  }
+  .body img {
+    display: none;
+  }
 }

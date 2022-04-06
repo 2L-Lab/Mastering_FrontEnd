@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2fe923c34b.js" crossorigin="anonymous"></script>
     <title>Run</title>
 </head>
 
@@ -50,29 +51,31 @@
         <h3>Get in touch</h3>
         <form>
             <div class="name">
-                <label for="name">Nom :</label>
+                <label for="name">Name<br></label>
                 <input type="text" id="name" name="user_name">
             </div>
             <div class="mail">
-                <label for="mail">e-mail&nbsp;:</label>
+                <label for="mail">Email<br></label>
                 <input type="email" id="mail" name="user_mail">
             </div>
             <div class="msg">
-                <label for="msg">Message :<br></label>
-                <textarea id="msg" name="user_message"></textarea>
+                <label for="msg">Message<br></label>
+                <textarea rows="10%" cols=65% id="msg" name="user_message"></textarea>
             </div>
         </form>
-    </div>
-    <div class="button-form">
-        <button type="submit">SEND MESSAGE</button>
+        <div class="button-form">
+            <button id="button-form" type="submit">SEND MESSAGE</button>
+        </div>
     </div>
     <footer>
-        <i class="fa fa-facebook-official" aria-hidden="true"></i>
-        <i class="fa fa-facebook" aria-hidden="true"></i>
-        <i class="fa fa-twitter" aria-hidden="true"></i>
-        <i class="fa fa-instagram" aria-hidden="true"></i>
-        <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+        <div class="logo">
+            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+        </div>
     </footer>
 </body>
 
