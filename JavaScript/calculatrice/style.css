@@ -1,0 +1,82 @@
+.calculette {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 2fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "res res res res"
+    "neuf huit sept clear"
+    "six cinq quatre clear"
+    "trois deux un clear"
+    "zer point plus moins"
+    "egal egal multiply division";
+  border: 1px solid teal;
+  border-radius: 15px;
+  width: 400px;
+  height: 400px;
+}
+button {
+  background: teal;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+}
+button:hover {
+  background: rgb(23, 170, 170);
+}
+
+.result {
+  grid-area: res;
+  text-align: right;
+  font-size: 40px;
+}
+.neuf {
+  grid-area: neuf;
+}
+.huit {
+  grid-area: huit;
+}
+.sept {
+  grid-area: sept;
+}
+.six {
+  grid-area: six;
+}
+.cinq {
+  grid-area: cinq;
+}
+.quatre {
+  grid-area: quatre;
+}
+.trois {
+  grid-area: trois;
+}
+.deux {
+  grid-area: deux;
+}
+.un {
+  grid-area: un;
+}
+.zer {
+  grid-area: zer;
+}
+.point {
+  grid-area: point;
+}
+.plus {
+  grid-area: plus;
+}
+.moins {
+  grid-area: moins;
+}
+.egal {
+  grid-area: egal;
+}
+.multiply {
+  grid-area: multiply;
+}
+.division {
+  grid-area: division;
+}
+.clear {
+  grid-area: clear;
+}
